@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicky Kumar Portfolio  </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3d8aad30c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+ 
+    <div id="header">
+        <div class="container">
+            <nav>
+                 <img src="image/vicky_lof.png" class = "logo">
+                 <ul id = "sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Experties</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>AI & ML Interface Designer</p>
+                <h1>Hi, I'm <span>Vicky Kumar</span><br>From India</h1>
+            </div>
+     </div>
+</div>
+<!-- --------------about---------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/vicky_img.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p><br>Vicky Kumar<br>
+
+                     <br>AI & ML Interface Designer<br>
+                   
+                   <br> Hello! I am a dedicated and enthusiastic individual with a fervent interest in the world of data analysis. Aspiring to carve a niche in this dynamic field, I bring a unique blend of analytical skills, a thirst for knowledge, and a commitment to leveraging data for informed decision-making.
+
+                   Skills:
+                   
+                   Data Analysis: Proficient in extracting meaningful insights from complex datasets, I am adept at using statistical techniques and tools to uncover patterns and trends.
+                   
+                   Data Visualization: Skilled in translating data into compelling visual stories using tools such as Tableau and Power BI, ensuring that insights are not just understood but also impactful.
+                   
+                   Excel Mastery: Excel is my playground; I excel in data cleaning, manipulation, and analysis to derive actionable results.
+                   
+                   Programming Lan
+                    
+                    <br>Education<br>
+                    <br>B.Tech in Computer Science and Engineering, Parul University, [2022-2026]<br>
+                    
+                    Skills<br>
+                    
+                   <br>Python<br>
+                   <br> Power BI <br>
+                    <br>C++<br>
+                    <br>Excel<br>
+                    <br>DBMS<br>
+                   <br> HTML, CSS, Js<br>
+                </p>
+
+                         <div class="tab-tittle">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"  onclick="opentab('experience')">Certifications</p>
+                            <p class="tab-links"  onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id = "skills">
+                            <ul>
+                                <li><span>Power BI</span><br>Report Making  </li>
+                                <li><span>Web App Development</span><br>Code Editor Using Javascript<br>html for Frontend and Express.Js and MongoDb for Backend as will as Database also.</li>
+                                <li><span>AI / Ml</span><br>Face recognition Application.
+                                </li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                                <li><span>2023</span><br>Javascript Workshop Certifications By <span>Parul University.</span></li>
+                                <li><span>2024</span><br>HTML,CSS, and Javascript for Web Developers Certifications By <span>Johns Hopkins University.</span></li>
+                                <li><span>2024</span><br>Hackhathon Participation Certifications By <span>PU code Hackhathon.</span></li>
+                                <li><span>2025</span><br>AWS Certifications By <span>parul University.</span></li>
+
+                                <ul>HTML,CSS, and Javascript for Web Developers Certifications By <span>Johns Hopkins University.</span></li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020</span><br>10th from High School Bettiah <br>Passing percentage:- 58.00%<br></li>
+                                <li><span>2022</span><br>12th from L.S College <br>Passing percentage:- 60.00%<br</li>
+                                <li><span>2022 - 2026</span><br>CSE from Parul University Vadodara Gujarat.<br>CGPA:- Pursuing (7.10)<br></li>
+                            </ul>
+                         </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <---------------services-------------------> 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Experties</h1>   
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Crafting seamless and responsive web experiences with modern design and functionality.</p>
+                     <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>Data Analytics</h2>
+                <p>Leveraging advanced data analytics to transform raw data into meaningful insights, driving informed decision-making and business growth.</p>
+                     <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>Excel</h2>
+                <p>IUnlocking the full potential of data with advanced Excel skills, including data analysis, automation, visualization, and formula-driven insights for smarter decision-making.</p>
+                     <a href="#">Learn more</a>
+            </div>
+          
+            </div>
+        </div> 
+    </div>
+</div>
+
+<!-- ---------------portfolio------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>   
+        <div class="work-list">
+            <div class="work">
+                <img src="image/chat_bott.jpg">
+                <div class="layer">
+                    <h3><a href="https://github.com/Travellingvicky/chat_bot_ai" target="_blank">Chatbot</a></h3>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="image/loan.jpg">
+                <div class="layer">
+                    <h3><a href="https://github.com/Travellingvicky/-Loan-Prediction-" target="_blank">Loan Prediction Application</a></h3>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="image/code_collcat.jpg">
+                <div class="layer">
+                    <h3><a href="#" target="_blank">Code Collaboration</a></h3>
+                </div>
+            </div>
+            
+        </div> 
+        <a href="#"class = "btn" >See more</a>
+    </div>
+</div>
+
+<!-- ---------------Contact------------------- -->
+
+<div id="contact" style="text-align: center;">
+    <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> vp0186189@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i> +91 930 408 8967</p>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/vicky-kumar-604546266"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Travellingvicky"><i class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/vp0186189?t=wwYu7IUwPs4WSG2-kA95RQ&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="https://www.facebook.com/share/15hSh5nxab/"><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
+
+
+        <div class="copyright">
+            <p>@ Thank you for visiting my portfolio <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+    }
+
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+ 
+</body>
+</html>
